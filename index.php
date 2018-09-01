@@ -22,6 +22,8 @@ error_reporting(E_ALL);
 
 $_SERVER['MAGE_IS_DEVELOPER_MODE'] = true;
 
+ini_set('display_errors', 1);
+
 try {
     require __DIR__ . '/app/bootstrap.php';
 } catch (\Exception $e) {

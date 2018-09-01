@@ -16,5 +16,5 @@ class World extends \Magento\Framework\App\Action\Action
     public function execute()
     {
         return $this->resultPageFactory->create(); 
-    }   
+    } 
 }
